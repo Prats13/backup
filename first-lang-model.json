@@ -1,0 +1,9 @@
+{
+    "BaseModelName": "NarrowBand",
+    "ModelName": "my-first-language-model",
+    "InputDataConfig": {
+           "S3Uri": "s3://audio-samples-for-s2t/data.txt",
+           "DataAccessRoleArn": "arn:aws:iam::mwyn-playground:role/AmazonTranscribeServiceRole-pratyush"
+      },
+    "LanguageCode": "en-US" 
+  }
